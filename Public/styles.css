@@ -1,0 +1,10 @@
+body {
+	text-align:center;
+}
+body h3{
+	font-family: verdana, tahoma;
+	text-align:center;
+	text-shadow: -2px 2px 0px #666,
+                 -4px 4px 0px #ccc,
+                 -6px 6px 2px #333;
+}
