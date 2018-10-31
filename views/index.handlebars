@@ -1,13 +1,16 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <title>Input</title>
-    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
-</head>
-
-<body>
     <h3>Welcome to the beginning of nothingness.</h3>
-</body>
-
-</html>
+    <form id="myForm" action="http://127.0.0.1:3000" method="POST">
+        <p>
+            <label for="name">Enter a Todo</label>:
+            <input type="text" name="title" id="todo">
+        </p>
+        <input type="submit" value="submit">
+    </form>
+    <ul>
+        {{#each todos}}
+        <li>
+            {{title}}
+        </li>
+        {{/each}}​ ​
+    </ul>
