@@ -33,7 +33,7 @@ app.use(function(req, res) {
   res.send(err.message);
   // next(err);
 });
-
+// TODO: testing the bot
 // error handler
 // no stacktraces leaked to user unless in development environment
 // TODO:to add am error view
