@@ -30,7 +30,7 @@ Object.keys(db).forEach(modelName => {
     db[modelName].associate(db);
   }
 });
-
+// TODO: To cross check if github app works on install 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 

@@ -1,6 +1,6 @@
-body {
+/* body {
 	text-align:center;
-}
+} */
 body h3{
 	font-family: verdana, tahoma;
 	text-align:center;
@@ -8,3 +8,31 @@ body h3{
                  -4px 4px 0px #ccc,
                  -6px 6px 2px #333;
 }
+form {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.form-submit-button {
+	background: #0066A2;
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 50px;
+	width: 100px;
+	font: bold 15px arial, sans-serif;
+	text-shadow:none;
+	}
+	
+ul {
+	list-style-type: none; /* Remove bullets */
+	padding: 10px; /* Remove padding */
+	margin: 0; /* Remove margins */
+  }
+  
+  ul li {
+	border: 1px solid #ddd; /* Add a thin border to each list item */
+	margin-top: 10px; /* Prevent double borders */
+	background-color: #f6f6f6; /* Add a grey background color */
+	padding: 12px; /* Add some padding */
+  }
